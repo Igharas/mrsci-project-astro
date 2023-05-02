@@ -1,0 +1,54 @@
+<div
+  class="fixed flex justify-between items-center bg-base-100 w-full z-[20] print:invisible"
+>
+  <div
+    class="navbar bg-primary text-primary-content fixed top-0 w-full max-w-5xl mx-auto h-10"
+  >
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16"></path></svg
+          >
+        </label>
+        <ul
+          tabindex="0"
+          class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+        >
+          <li><a href="#idArticle">Articles</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="btn btn-ghost w-24" onclick="window.location.href='/'; ">
+        <img id="logo" src="/myste.png" class="h-12 w-12" />
+      </div>
+      <div class="font-bold align-middle min-w-full">
+        <p>Mystical Rose School of Caloocan Inc.</p>
+      </div>
+    </div>
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="#idArticle">Articles</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <!-- <div class="navbar-end">
+      <a href="/" class="btn">Get started</a>
+    </div> -->
+  </div>
+</div>
+
+<style>
+  li {
+    font-weight: 600;
+  }
+</style>

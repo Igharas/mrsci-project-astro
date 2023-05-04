@@ -1,67 +1,87 @@
 <div id="idArticle" class="px-5 pt-24">
     <h3 class="card-title">ARTICLES</h3>
 </div>
-<div class="px-5 pt-10">
-    <h2 class="card-title">We Are Hiring!</h2>
-    <p>Be part of our growing font-family and apply now!</p>
+<div class="ccarousel">
+    <div id="page1">
+        <div class="px-5 pt-10">
+            <h2 class="card-title">We Are Hiring!</h2>
+            <p>Be part of our growing font-family and apply now!</p>
 
-    <div class="card-actions justify-end">
-        <!-- The button to open modal -->
-        <label for="article1" class="btn">Read More</label>
+            <div class="card-actions justify-end">
+                <!-- The button to open modal -->
+                <label for="article1" class="btn">Read More</label>
 
-        <input type="checkbox" id="article1" class="modal-toggle" />
-        <div class="modal">
-            <div class="modal-box">
-                <h3 class="font-bold text-lg">
-                    Be part of our ROSEAN Family this A.Y. 2023-2024!
-                </h3>
-                <p class="py-4" style="font-weight: 600;">Qualifications:</p>
-                <li class="py-4">Fresh graduates can apply</li>
-                <li class="py-4">Board and Non-Board Passer</li>
-                <li class="py-4">
-                    Excellent verbal and written communication skills
-                </li>
-                <li class="py-4">Computer literate</li>
-                <li class="py-4">
-                    Previous teaching experience will be advantageous
-                </li>
-                <div class="modal-action">
-                    <label for="article1" class="btn">Close</label>
+                <input type="checkbox" id="article1" class="modal-toggle" />
+                <div class="modal">
+                    <div class="modal-box">
+                        <h3 class="font-bold text-lg">
+                            Be part of our ROSEAN Family this A.Y. 2023-2024!
+                        </h3>
+                        <p class="py-4" style="font-weight: 600;">
+                            Qualifications:
+                        </p>
+                        <li class="py-4">Fresh graduates can apply</li>
+                        <li class="py-4">Board and Non-Board Passer</li>
+                        <li class="py-4">
+                            Excellent verbal and written communication skills
+                        </li>
+                        <li class="py-4">Computer literate</li>
+                        <li class="py-4">
+                            Previous teaching experience will be advantageous
+                        </li>
+                        <div class="modal-action">
+                            <label for="article1" class="btn">Close</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<hr class="w-2/3 m-auto" />
+        <hr class="w-2/3 m-auto" />
 
-<!-- 2nd article -->
-<div class="px-5 pt-10">
-    <h2 class="card-title">NPSAC MLBB INTERSCHOOL TOURNAMENT</h2>
-    <p>YASCI BLUE SCORPIONS!</p>
+        <!-- 2nd article -->
+        <div class="px-5 pt-10">
+            <h2 class="card-title">NPSAC MLBB INTERSCHOOL TOURNAMENT</h2>
+            <p>YASCI BLUE SCORPIONS!</p>
 
-    <div class="card-actions justify-end">
-        <!-- The button to open modal -->
-        <label for="article2" class="btn">Read More</label>
+            <div class="card-actions justify-end">
+                <!-- The button to open modal -->
+                <label for="article2" class="btn">Read More</label>
 
-        <input type="checkbox" id="article2" class="modal-toggle" />
-        <div class="modal">
-            <div class="modal-box">
-                <h3 class="font-bold text-lg">
-                    Your NPSAC MLBB INTERSCHOOL TOURNAMENT
-                </h3>
-                <p class="py-4">Congratulations!</p>
-                <figure><img src="npsacml.jpg" /></figure>
-                <div class="modal-action">
-                    <label for="article2" class="btn">Close</label>
+                <input type="checkbox" id="article2" class="modal-toggle" />
+                <div class="modal">
+                    <div class="modal-box">
+                        <h3 class="font-bold text-lg">
+                            Your NPSAC MLBB INTERSCHOOL TOURNAMENT
+                        </h3>
+                        <p class="py-4">Congratulations!</p>
+                        <figure><img src="npsacml.jpg" /></figure>
+                        <div class="modal-action">
+                            <label for="article2" class="btn">Close</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <hr class="w-2/3 m-auto" />
+        <!-- 3rd article -->
     </div>
+    <div id="page2"></div>
 </div>
-<hr class="w-2/3 m-auto" />
-<!-- 3rd article -->
+<!-- <div class="btn-group">
+    <button class="btn"><a href="#page1">1</a></button>
+    <button class="btn"><a href="#page2">2</a></button>
+    <button class="btn">3</button>
+    <button class="btn">4</button>
+</div> -->
 <style>
     hr {
         border-width: 1.5px;
+    }
+    .ccarousel {
+        box-sizing: content-box;
+        overflow-x: hidden;
+        flex: none;
+        scroll-snap-align: start;
+        scroll-snap-align: end;
     }
 </style>
